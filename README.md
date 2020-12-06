@@ -34,7 +34,7 @@ def login_discord():
 
 @app.route("/login-discord/callback")
 def login_callback():
-    raw_state = authcord.parse_state(flask.request.args.get("state"))
+    raw_state = flask.request.args.get("state")
     state = authcord.parse_state(raw_state)
     
     if not state:
