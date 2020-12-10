@@ -1,6 +1,8 @@
 # authcord.py
 A Python module used for interacting with Discord's OAuth API. Can be used with any Python web framework.
 
+**NOTE:** *This module was made for internal use on some of my projects, this might make it hard to implement into your own. Feel free to tweak the source code as you please, just make sure to include the Licesnse! :)*
+
 Documentation coming soon!
 
 
